@@ -1,0 +1,43 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Get Dad Joke",
+    "description": "Retrieves a dad joke",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://icanhazdadjoke.com"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Get a random dad joke",
+        "operationId": "GetDadJoke",
+        "deprecated": false
+      }
+    },
+    "/search": {
+      "get": {
+        "description": "Find a dad joke",
+        "operationId": "FindDadJoke",
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "description": "The search term to retrieve the joke for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
