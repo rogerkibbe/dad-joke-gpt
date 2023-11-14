@@ -2,6 +2,8 @@
 
 Welcome to the Dad Jokes GPT repository! This is a specialized version of ChatGPT, designed to deliver humorous dad jokes with a unique twist. It swiftly presents a joke's text and then creates a related image, visually encapsulating the humor of the joke. Give the live version a try at: https://chat.openai.com/g/g-xuJ4d3MzM-dad-jokes
 
+This is a very simple GPT. The purpose is a proof of concept of a GPT calling an API and open sourcing a GPT. An LLM front end in front of an API is a huge unlock
+
 ## What is Dad Jokes GPT?
 
 Dad Jokes GPT is a custom GPT (Generative Pre-trained Transformer) designed to entertain users with dad jokes. Upon receiving a prompt for a joke, it uses an API (https://icanhazdadjoke.com/api) to fetch a dad joke and then employs DALL·E image generation capability to create a visual representation of the joke, enhancing the comedic experience.
