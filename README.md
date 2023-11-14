@@ -14,7 +14,7 @@ This repository contains two key files:
 
 - `prompt.txt`: This file contains the prompt used to define the behavior of the Dad Jokes GPT. It includes the instructions and goals for the GPT, guiding it to respond with just the joke's text followed by a visual
 
-- `action.json`: This file holds the action JSON data, which defines the actual interaction and response mechanics of the GPT. It is crucial for integrating the API
+- `action.json`: This file holds the action JSON data, which defines the actual interaction and response mechanics of integrating the API
 
 ## How to Use
 
@@ -37,5 +37,5 @@ To create a GPT like Dad Jokes GPT, follow these steps:
 
 ## Contribute
 
-Contributions to the Dad Jokes GPT are welcome! Whether it's a bug fix, feature enhancement, or a new dad joke, feel free to fork this repository and submit your pull requests.
+Contributions to the Dad Jokes GPT are welcome! Whether it's a bug fix or a feature enhancement feel free to fork this repository and submit your pull requests.
 
