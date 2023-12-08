@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://icanhazdadjoke.com"
+      "URL": [URL-HOSTING-PROXY]
     }
   ],
   "paths": {
