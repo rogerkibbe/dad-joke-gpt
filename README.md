@@ -2,7 +2,7 @@
 
 Welcome to the Dad Jokes GPT repository! This is a specialized version of ChatGPT, designed to deliver humorous dad jokes with a unique twist. It swiftly presents a joke's text and then creates a related image, visually encapsulating the humor of the joke. Give the live version a try at: [https://chat.openai.com/g/g-xuJ4d3MzM-dad-jokes](https://chat.openai.com/g/g-xuJ4d3MzM-dad-jokes)
 
-This is a very simple GPT. The purpose is a proof of concept of a GPT calling an API and open sourcing a GPT. An LLM front end in front of an API is a huge unlock
+This is a very simple GPT. The purpose is a proof of concept of a GPT calling an API and open sourcing a GPT. An LLM front end in front of an API is a huge unlock.
 
 ## What is Dad Jokes GPT?
 
@@ -10,7 +10,7 @@ Dad Jokes GPT is a custom GPT designed to entertain users with dad jokes. Upon r
 
 ## Repository Contents
 
-This repository contains three key files:
+This repository contains three critical files:
 
 - `prompt.txt`: This file contains the prompt used to define the behavior of the Dad Jokes GPT. It includes the instructions and goals for the GPT, guiding it to respond with just the joke's text followed by a visual.
 
@@ -30,12 +30,12 @@ To create a GPT like Dad Jokes GPT, follow these steps:
    - Check `dad-joke-api-proxy.js` for the API proxy setup required for proper API interaction.
 
 3. **Setting Up the API Proxy**:
-   - Deploy `dad-joke-api-proxy.js` to a Node.js server to handle the API call headers correctly.
+   - Deploy `dad-joke-api-proxy.js` to a Node.js server to handle the API call headers correctly. No external libraries are used so no `package.json` is needed
 
 4. **Integration**:
    - Integrate the `action.json` in your GPT environment to set up the response mechanics. You will need to update this line:
-   - `"url": "https://icanhazdadjoke.com"`
-   - to the URL for `dad-joke-api-proxy.js`
+   - `"URL": [URL-HOSTING-PROXY]`
+   - to the URL for `dad-joke-API-proxy.js`
 
 5. **Testing**:
    - Test the setup by prompting the GPT for a dad joke and observing its response and image generation.
@@ -45,4 +45,4 @@ To create a GPT like Dad Jokes GPT, follow these steps:
 
 ## Contribute
 
-Contributions to the Dad Jokes GPT are welcome! Whether it's a bug fix or a feature enhancement feel free to fork this repository and submit your pull requests.
+Contributions to the Dad Jokes GPT are welcome! Whether it's a bug fix or a feature enhancement, feel free to fork this repository and submit your pull requests.
